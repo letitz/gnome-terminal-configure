@@ -405,8 +405,8 @@ function usage() {
   log "  dump [profile PROFILE_ID]"
   log "    Dumps the given gnome-terminal as a configuration file to stdout."
   log
-  log "  apply [profile PROFILE_ID] FILE"
-  log "    Applies the gnome-terminal configuration file."
+  log "  apply [profile PROFILE_ID]"
+  log "    Applies the gnome-terminal configuration passed to stdin."
   die
 }
 
