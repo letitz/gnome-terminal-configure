@@ -29,6 +29,6 @@ Where SUBCOMMAND can be one of:
   dump [profile PROFILE_ID]
     Dumps the given gnome-terminal as a configuration file to stdout.
 
-  apply [profile PROFILE_ID] FILE
-    Applies the gnome-terminal configuration file.
+  apply [profile PROFILE_ID]
+    Applies the gnome-terminal configuration passed to stdin.
 ```
