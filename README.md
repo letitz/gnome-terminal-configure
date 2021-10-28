@@ -32,3 +32,9 @@ Where SUBCOMMAND can be one of:
   apply [profile PROFILE_ID]
     Applies the gnome-terminal configuration passed to stdin.
 ```
+
+## Troubleshooting
+
+If the tool complains about there being no profiles to configure, you may have
+to open the gnome-terminal profile preferences in the GUI at least once. The
+profile should be created after that.
