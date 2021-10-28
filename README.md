@@ -38,3 +38,7 @@ Where SUBCOMMAND can be one of:
 If the tool complains about there being no profiles to configure, you may have
 to open the gnome-terminal profile preferences in the GUI at least once. The
 profile should be created after that.
+
+## TODO
+
+* Support `use-system-font` and `use-theme-colors` properties.
